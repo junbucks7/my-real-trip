@@ -1,0 +1,41 @@
+.category-card-container {
+  /* margin: 20px; */
+  /* width: 70px; */
+  /* margin-right: 10px; */
+  /* display: inline-block; */
+  /* border: 1px solid red; */
+}
+
+.category-card-wrapper {
+  width: 70px;
+  height: 70px;
+  padding-left: 2px;
+  margin-right: 0px;
+  /* border: 1px solid gainsboro; */
+  /* border-radius: 10px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.category-card {
+  width: 40px;
+}
+
+.category-last-image {
+  width: 40px;
+  background-color: red;
+}
+
+.category-name-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.category-name {
+  font-weight: bold;
+  color: gray;
+}

@@ -1,0 +1,30 @@
+.trip-wrapper {
+  margin-top: 4px;
+  margin-left: 20px;
+  margin-right: 20px;
+  /* display: flex; */
+  /* justify-content: space-between; */
+}
+
+.trip-image {
+  width: 150px;
+  height: 150px;
+}
+
+.location-wrapper {
+  margin-top: 4px;
+}
+
+.location {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.name-wrapper {
+  margin-top: 4px;
+}
+
+.price-wrapper {
+  margin-top: 4px;
+  color: gray;
+}
