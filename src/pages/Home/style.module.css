@@ -99,7 +99,12 @@
 
 .create-category-container {
   display: flex;
-  margin: 10px 20px 20px;
+  margin: 0px 20px 30px;
   justify-content: space-between;
   flex-flow: row wrap;
+}
+
+.create-trip-card {
+  display: flex;
+  margin-top: 14px;
 }

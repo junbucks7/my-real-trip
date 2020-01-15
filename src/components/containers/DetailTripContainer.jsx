@@ -1,9 +1,9 @@
 import React from "react";
 import TripCard from "../layouts/TripCard";
-import DB from "../../tripCardModelsDB";
+import DB from "../../DetailTripCardModelsDB";
 
-const TripCardContainer = ({ className }) => {
-  const createTripCard = () => {
+const DetailTripContainer = ({ className }) => {
+  const createDetailTripCard = () => {
     return DB.map((data, index) => {
       return (
         <TripCard
@@ -17,7 +17,7 @@ const TripCardContainer = ({ className }) => {
     });
   };
 
-  return <div className={className}>{createTripCard()}</div>;
+  return <div className={className}>{createDetailTripCard()}</div>;
 };
 
-export default TripCardContainer;
+export default DetailTripContainer;

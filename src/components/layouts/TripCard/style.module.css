@@ -11,6 +11,10 @@
   height: 150px;
 }
 
+.description-wrapper {
+  text-align: left;
+}
+
 .location-wrapper {
   margin-top: 4px;
 }

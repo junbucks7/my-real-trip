@@ -7,8 +7,8 @@ import DB from "../../cityModelsDB";
 
 const Home = () => {
   const createCities = () =>
-    DB.map((data, index) => (
-      <div className={style["cities-wrapper"]} key={index}>
+    DB.map(data => (
+      <div className={style["cities-wrapper"]}>
         <div className={style["city-name-wrapper"]}>
           <span className={style["city-name"]}>{data.cityName}</span>
         </div>
@@ -42,7 +42,7 @@ const Home = () => {
         <img src="https://image.flaticon.com/icons/svg/517/517565.svg" />
       </div>
       <div>
-        <TripCardContainer />
+        <TripCardContainer className={style["create-trip-card"]} />
       </div>
     </div>
   );
