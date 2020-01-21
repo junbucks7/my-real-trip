@@ -1,10 +1,24 @@
 import React from "react";
 import TripCard from "../layouts/TripCard";
-import DB from "../../tripCardModelsDB";
+import HomeTripCardDB from "../../tripCardModelsDB";
+import DetailTripCardDB from "../../DetailTripCardModelsDB";
 
-const TripCardContainer = ({ className }) => {
+const TripCardContainer = ({ className, type = "home" }) => {
+  const tripModel = [
+    {
+      name: "home",
+      db: HomeTripCardDB
+    },
+    {
+      name: "detail",
+      db: DetailTripCardDB
+    }
+  ];
+  const selectTripcard = target => {
+    return tripModel.find(model => model.name === target);
+  };
   const createTripCard = () => {
-    return DB.map((data, index) => {
+    return selectTripcard(type).db.map((data, index) => {
       return (
         <TripCard
           tripImage={data.tripImage}

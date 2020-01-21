@@ -29,20 +29,18 @@
 }
 
 .cities-container {
-  /* width: 140px; */
-  /* margin-right: 10px; */
   display: flex;
   overflow-x: scroll;
+  margin-right: 10px;
   position: relative;
   top: -30px;
 }
 
 .cities-wrapper {
-  margin-left: 20px;
+  margin-left: 10px;
   position: relative;
   display: flex;
   justify-content: flex-start;
-  /* align-items: center; */
 }
 
 .city-image {

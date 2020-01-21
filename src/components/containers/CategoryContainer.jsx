@@ -1,16 +1,33 @@
 import React from "react";
 import CategoryCard from "../layouts/CategoryCard";
-import DB from "../../categoryModelsDB";
+import TourCategoryDB from "../../categoryModelsDB";
+import ActionCategoryDB from "../../detailCategoryModelsDB";
+import { Link } from "react-router-dom";
 
-const CategoryContainer = ({ className }) => {
+const CategoryContainer = ({ className, type = "tour" }) => {
+  const categoryModel = [
+    {
+      name: "tour",
+      db: TourCategoryDB
+    },
+    {
+      name: "action",
+      db: ActionCategoryDB
+    }
+  ];
+  const selectCategory = target => {
+    return categoryModel.find(model => model.name === target);
+  };
   const createCategory = () => {
-    return DB.map((data, index) => {
+    return selectCategory(type).db.map((data, index) => {
       return (
-        <CategoryCard
-          categoryImage={data.categoryImage}
-          categoryName={data.categoryName}
-          key={index}
-        />
+        <Link to={data.link}>
+          <CategoryCard
+            categoryImage={data.categoryImage}
+            categoryName={data.categoryName}
+            key={index}
+          />
+        </Link>
       );
     });
   };
