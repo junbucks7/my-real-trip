@@ -1,7 +1,9 @@
 import React from "react";
 import TripCard from "../layouts/TripCard";
 import HomeTripCardDB from "../../tripCardModelsDB";
+import SkiCardDB from "../../skiCardModelsDB";
 import DetailTripCardDB from "../../DetailTripCardModelsDB";
+import DetailFooterCardDB from "../../detailFooterModelsDB";
 
 const TripCardContainer = ({ className, type = "home" }) => {
   const tripModel = [
@@ -12,6 +14,14 @@ const TripCardContainer = ({ className, type = "home" }) => {
     {
       name: "detail",
       db: DetailTripCardDB
+    },
+    {
+      name: "tourTicket",
+      db: SkiCardDB
+    },
+    {
+      name: "footerCard",
+      db: DetailFooterCardDB
     }
   ];
   const selectTripcard = target => {

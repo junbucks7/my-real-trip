@@ -17,6 +17,6 @@ export default [
     {
       cityName: "서울",
       image:
-        "https://w.namu.la/s/58e2a2aee0e0db1c99dce320f57e85c524a729c150ec34af63ce5fc6588b022270fde66c2448f700383c9a3c59844016ef391a3e88aeb3dd7518740466121dca046656520c1facf66d3d36b4b101f6311f9ef1f6b37e9a43e8ff202182c02be652c211f0591c3b4511207bfa0950b130"
+        "https://dimg07.c-ctrip.com/images/10040z000000nbrjs0D58_C_1080_600_Q80.jpg?proc=source/trip;namelogo/d_40"
     }
   ];

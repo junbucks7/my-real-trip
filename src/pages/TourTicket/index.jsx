@@ -60,12 +60,22 @@ const TourTicket = () => {
           />
         </div>
         <div className={style["tour-ticket-nav-subject"]}>
+          <span>가이드라이브 패키지</span>
+          {/* <img src="https://image.flaticon.com/icons/svg/517/517565.svg" /> */}
+        </div>
+        <div>
+          <TripCardContainer
+            className={style["tour-ticket-create-trip-card"]}
+          />
+        </div>
+        <div className={style["tour-ticket-nav-subject"]}>
           <span>겨울에도 꿀잼 보장</span>
           <img src="https://image.flaticon.com/icons/svg/517/517565.svg" />
         </div>
         <div>
           <TripCardContainer
-            className={style["tour-ticket-create-trip-card"]}
+            type="tourTicket"
+            className={style["tour-ticket-create-winter-card"]}
           />
         </div>
       </div>

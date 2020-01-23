@@ -1,18 +1,21 @@
 .trip-wrapper {
   margin-top: 4px;
-  margin-left: 20px;
-  margin-right: 20px;
+  /* margin-left: 10px; */
+  /* margin-right: 6px; */
+  margin-bottom: 20px;
   /* display: flex; */
   /* justify-content: space-between; */
 }
 
 .trip-image {
-  width: 150px;
-  height: 150px;
+  width: 156px;
+  height: 130px;
+  margin-right: 10px;
 }
 
 .description-wrapper {
   text-align: left;
+  margin-left: 10px;
 }
 
 .location-wrapper {
@@ -26,6 +29,8 @@
 
 .name-wrapper {
   margin-top: 4px;
+  width: 140px;
+  flex-flow: row wrap;
 }
 
 .price-wrapper {

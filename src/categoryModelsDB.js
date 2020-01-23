@@ -7,7 +7,7 @@ export default [
     {
       categoryImage: "https://image.flaticon.com/icons/svg/2189/2189896.svg",
       categoryName: "항공권",
-      link: '/TourTicket'
+      link: '/Airplane'
     },
     {
       categoryImage: "https://image.flaticon.com/icons/svg/608/608890.svg",

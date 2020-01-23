@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import CategoryContainer from "../../components/containers/CategoryContainer";
 import TripcardContainer from "../../components/containers/TripCardContainer";
 import detailHeaderModelsDB from "../../detailHeaderModelsDB";
+import TripCardContainer from "../../components/containers/TripCardContainer";
 
 const Detail = ({ history }) => {
   console.log(
@@ -65,6 +66,10 @@ const Detail = ({ history }) => {
         <TripcardContainer
           type="detail"
           className={style["create-detail-card-model"]}
+        />
+        <TripCardContainer
+          type="footerCard"
+          className={style["create-winter-card"]}
         />
       </div>
     </div>

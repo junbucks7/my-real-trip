@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import TripCardContainer from "../../components/containers/TripCardContainer";
 import CategoryContainer from "../../components/containers/CategoryContainer";
 import DB from "../../cityModelsDB";
-import PromotionSlider from "../../components/containers/PromotionSlider";
+// import PromotionSlider from "../../components/containers/PromotionSlider";
 
 const Home = ({ history }) => {
   console.log(history);
@@ -45,15 +45,25 @@ const Home = ({ history }) => {
           src="https://d2ur7st6jjikze.cloudfront.net/cms/479_original_1577953842.jpg?1577953842"
         />
       </div> */}
-      <div>
+      {/* <div>
         <PromotionSlider />
+      </div> */}
+      <div className={style["nav-subject"]}>
+        <span>가이드라이브 패키지</span>
+      </div>
+      <div>
+        <TripCardContainer className={style["create-trip-card"]} />
+        {/* <TripCardContainer className={style["create-trip-card"]} /> */}
       </div>
       <div className={style["nav-subject"]}>
         <span>겨울에도 꿀잼 보장</span>
         <img src="https://image.flaticon.com/icons/svg/517/517565.svg" />
       </div>
       <div>
-        <TripCardContainer className={style["create-trip-card"]} />
+        <TripCardContainer
+          type="tourTicket"
+          className={style["create-winter-card"]}
+        />
       </div>
     </div>
   );

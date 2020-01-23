@@ -38,4 +38,5 @@
 .category-name {
   font-weight: bold;
   color: gray;
+  text-decoration: none;
 }

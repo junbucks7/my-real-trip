@@ -95,3 +95,9 @@
 ::-webkit-scrollbar {
   display: none;
 }
+
+.create-winter-card {
+  display: flex;
+  justify-content: space-between;
+  margin: 14px 5px 20px 15px;
+}
