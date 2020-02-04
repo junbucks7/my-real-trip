@@ -54,11 +54,30 @@ react-router-dom 으로 컴포넌트의 위치를 정의 해주었습니다.
 
 * 설치 방법
 
-    npm install
+  npm install
 
-    npm run start
+  npm run start
 
-    npm install --save react-router-dom
+  npm install --save react-router-dom          //react-router-dom 설치
 
-    npm install --save react-router-transition
+  npm install --save react-router-transition   //react router의 효과 설치
   
+```
+import { HashRouter as Router, Route } from "react-router-dom";
+```
+이와 같이 import를 시켜 줍니다.
+<br>
+* Route 컴포넌트로 특정 주소에 컴포넌트 연결
+```
+<Router>
+  <Route path="/" component={Home} exact />
+  <Route path="/Detail" component={Detail} exact />
+  <Route path="/TourTicket" component={TourTicket} exact/>
+  <Route path="/Airplane" component={Airplane} exact/>
+  <Route path="/PromotionTour" component={PromotionTour} exact/>
+  <Route path="/Package" component={Package} exact/>
+</Router>
+```
+Route라는 컴포넌트를 사용하여 사용자의 현재 경로에 따라 어떤 컴포넌트를 보여 줄지 정의할 수 있습니다.
+<br>
++ <Route path="주소" component={보여 줄 컴포넌트} exact />
