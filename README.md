@@ -54,11 +54,11 @@ react-router-dom 으로 컴포넌트의 위치를 정의 해주었습니다.
 
 * 설치 방법
 
-  npm install
+    npm install
 
-  npm run start
+    npm run start
 
-  npm install --save react-router-dom
+    npm install --save react-router-dom
 
-  npm install --save react-router-transition
+    npm install --save react-router-transition
   
