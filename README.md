@@ -22,8 +22,17 @@
 <br>
 <br>
 
-프로젝트
-========
+## 프로젝트
+
 * Javascript ES6   
 * React Router DOM   
-* CSS (CSS.module)
+* CSS (CSS.module)   
+
+## ES6 Class 기반 프로젝트
+
+클래스 단위로 컴포넌트들을 관리하며, 클래스 내에서 함수들을 바인딩하여 사용합니다.
+
+``
+ideal{
+if}
+``
