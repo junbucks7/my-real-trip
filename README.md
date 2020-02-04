@@ -13,10 +13,6 @@
   <img width="200" height="500" src="https://user-images.githubusercontent.com/59439454/73727878-a698d100-4775-11ea-9699-7f7e74895658.png">
 </div>   
 
-<br>
-<br>
-<br>
-
 ---------------------------------------------
 
   <img width="200" src="https://user-images.githubusercontent.com/59439454/73727879-a7316780-4775-11ea-9f55-5560fa105ca3.png">
@@ -28,6 +24,6 @@
 
 프로젝트
 ========
-*Javascript ES6
-*React Router DOM
+*Javascript ES6   
+*React Router DOM   
 *CSS (CSS.module)
