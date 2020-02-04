@@ -7,7 +7,7 @@
 <center><img width="300" height="500" src="https://user-images.githubusercontent.com/59439454/73727875-a698d100-4775-11ea-9318-5922763e7759.png"></center>
 
 <div>
-  <img width="200" height="500" src="https://user-images.githubusercontent.com/59439454/73727877-a698d100-4775-11ea-99a1-a1fe5f76ec4c.png">
+  <center><img width="200" height="500" src="https://user-images.githubusercontent.com/59439454/73727877-a698d100-4775-11ea-99a1-a1fe5f76ec4c.png"></center>
   <img width="200" height="500" src="https://user-images.githubusercontent.com/59439454/73727878-a698d100-4775-11ea-9699-7f7e74895658.png">
 </div>
 
