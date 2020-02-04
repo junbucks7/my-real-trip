@@ -81,3 +81,19 @@ import { HashRouter as Router, Route } from "react-router-dom";
 Route라는 컴포넌트를 사용하여 사용자의 현재 경로에 따라 어떤 컴포넌트를 보여 줄지 정의할 수 있습니다.
 <br>
 + <Route path="주소" component={보여 줄 컴포넌트} exact />
+<br>
+
+## Link
+***Link 컴포넌트는 클릭하면 다른 주소로 이동시켜 주는 컴포넌트입니다.***
+일반적으로 html에서 a 태그와 같이 페이지를 전환하는데, 리액트 라우터를 사용할 때는 이 태그를 직접 사용하면 안 됩니다.
+이 태그는 페이지를 전환하는 과정에서 페이지를 새로 불러오기 때문에 애플리케이션이 들고 있던 상태들을 모두 날려버립니다.
+Link 자체는 a 태그로 이루어져 있지만, 페이지 전환을 방지하는 기능이 내장되어 있습니다.
+
+* <Link to="주소">내용</Link>
+
+```
+<Link to={`/Detail?name=${encodeURIComponent(data.cityName)}`} className={style["cities-wrapper"]}>
+```
+
+
+ 
