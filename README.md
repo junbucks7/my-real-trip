@@ -24,6 +24,6 @@
 
 프로젝트
 ========
-*Javascript ES6   
-*React Router DOM   
-*CSS (CSS.module)
+* Javascript ES6   
+* React Router DOM   
+* CSS (CSS.module)
