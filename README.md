@@ -31,24 +31,18 @@
 
 클래스 단위로 컴포넌트들을 관리하며, 클래스 내에서 함수들을 바인딩하여 사용합니다.
 
+## 프로젝트 폴더 Structure
 ```
-ideal-type-world-cup-source/
-├── html/
-│   └── index.html
+my-real-trip/
 ├── js/
+│   ├── index.js
+│   └── App.js
+│
+├── jsx/
 │   ├── components/
-│   ├── containers/
-│   ├── lib/
-│   ├── pages/
-│   ├── router/
-│   ├── main.js
-│   └── Storage.js
-└── sass/
-    ├── base/
-    ├── components/
-    ├── layout/
-    ├── pages/
-    ├── themes/
-    ├── utils/
-    └── main.sass
+│   │   ├── containers/
+│   │   └── layouts/
+│   └── pages/
+│
+└── Css module/
 ```
