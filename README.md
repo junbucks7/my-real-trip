@@ -46,6 +46,14 @@ my-real-trip/
 │
 └── Css module/
 ```
+<br>
+부모 컴포넌트와 자식 컴포넌트를 props로 상속시키기 위해 components파일에서
+containers와 layouts 폴더를 나누었습니다.
+
+그리고 pages에서 새로운 페이지에 대해 React router dom으로 정의를 해주어 Link로 페이지 전환을 해주도록 하였습니다.
+
+또한 CSS에서 CSS module을 사용하여 좀더 모듈화를 시켜주었습니다.
+
 
 <br>
 
